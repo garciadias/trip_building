@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "trip-building"
+version = "0.1.0"
+description = ""
+authors = ["Rafael Dias <rafaelagd@gmail.com>"]
+readme = "README.md"
+packages = [{include = "trip_building"}]
+
+[tool.poetry.dependencies]
+python = "3.9.17"
+ydata-profiling = "^4.6.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+taskipy = "^1.12.2"
+isort = "^5.13.2"
+mypy = "^1.8.0"
+black = "^24.1.1"
+prospector = {extras = ["all"], version = "^1.10.3"}
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
