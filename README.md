@@ -39,6 +39,13 @@ The data profiles can be accessed at the following links:
 
 The full data analysis with my findings and recommendations can be found [here](https://www.notion.so/Byway-data-analysis-39c7574d5fa241d4a1afec24023ff2d3?pvs=21).
 
+### Code Observations:
+
+- The data is not evenly distributed across the months, with a significant number of trips being created in March.
+- The data is not published here to respect the privacy of the users and the company. A file should be added at `data/raw/reporting-trip-request-extract.csv` with the data to run the analysis.
+- I don't use Jupyter Notebooks on this analysis. Instead, I use the `# %%` tag on vscode to separate the code into cells. This way, I can run the code in a similar way to Jupyter Notebooks and still have the benefits of using a code editor. At the end of
+my analysis, I could convert the code into a Jupyter Notebook if needed. In this case I preferred to refactor the code to make it more readable and to add comments to explain the code. The file `trip_building/exploration/quick_exploration.py` is an example of how I would use this approach to run quick and dirty analysis before structuring the code into a more readable and production-ready format.
+
 # Summary of the analysis
 
 ## Code Task: Data Analysis and Recommendations Report
@@ -109,10 +116,3 @@ The insights derived from this analysis can inform strategic decisions in produc
 ## Conclusion
 
 This report underscores the value of detailed data analysis in identifying user preferences, uncovering system inefficiencies, and guiding strategic improvements. By addressing the identified issues and leveraging the insights gained, the company can enhance the trip-building experience, ultimately leading to higher user satisfaction and conversion rates.
-
-### Observations:
-
-- The data is not evenly distributed across the months, with a significant number of trips being created in March.
-- The data is not published here to respect the privacy of the users and the company. A file should be added at `data/raw/reporting-trip-request-extract.csv` with the data to run the analysis.
-- I don't use Jupyter Notebooks on this analysis. Instead, I use the `# %%` tag on vscode to separate the code into cells. This way, I can run the code in a similar way to Jupyter Notebooks and still have the benefits of using a code editor. At the end of
-my analysis, I could convert the code into a Jupyter Notebook if needed. In this case I preferred to refactor the code to make it more readable and to add comments to explain the code. The file `trip_building/exploration/quick_exploration.py` is an example of how I would use this approach to run quick and dirty analysis before structuring the code into a more readable and production-ready format.
