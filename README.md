@@ -1,6 +1,6 @@
-# Readme
+# Trip Building Data Analysis
 
-# Running the code
+## Running the code
 
 ## Prerequisites
 
